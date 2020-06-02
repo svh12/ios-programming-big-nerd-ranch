@@ -2,8 +2,8 @@
 //  WorldTrotterUITests.swift
 //  WorldTrotterUITests
 //
-//  Created by Stephanie on 5/26/20.
-//  Copyright © 2020 Stephanie. All rights reserved.
+//  Created by Stephanie Hoang on 5/26/20.
+//  Copyright © 2020 Stephanie Hoang. All rights reserved.
 //
 
 import XCTest

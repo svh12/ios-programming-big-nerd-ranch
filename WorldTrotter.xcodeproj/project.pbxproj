@@ -14,6 +14,9 @@
 		902CDFF8247E33B90008C88D /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902CDFF7247E33B90008C88D /* WorldTrotterTests.swift */; };
 		902CE003247E33B90008C88D /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902CE002247E33B90008C88D /* WorldTrotterUITests.swift */; };
 		902CE011247E48390008C88D /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902CE010247E48390008C88D /* ConversionViewController.swift */; };
+		90D0EC55248608DB0002AC9C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90D0EC57248608DB0002AC9C /* Localizable.strings */; };
+		90F0C52024836759006D2DF8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F0C51F24836758006D2DF8 /* MapKit.framework */; };
+		90F0C5222485A445006D2DF8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0C5212485A445006D2DF8 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,12 @@
 		902CE002247E33B90008C88D /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		902CE004247E33B90008C88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		902CE010247E48390008C88D /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		90D0EC56248608DB0002AC9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		90D0EC58248608E20002AC9C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		90F0C51F24836758006D2DF8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		90F0C5212485A445006D2DF8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		90F0C5242485FAC9006D2DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		90F0C5272485FDB8006D2DF8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F0C52024836759006D2DF8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,7 @@
 				902CDFF6247E33B90008C88D /* WorldTrotterTests */,
 				902CE001247E33B90008C88D /* WorldTrotterUITests */,
 				902CDFE0247E33B70008C88D /* Products */,
+				90F0C51E24836757006D2DF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +114,8 @@
 				902CDFE9247E33B90008C88D /* Assets.xcassets */,
 				902CDFEB247E33B90008C88D /* LaunchScreen.storyboard */,
 				902CDFEE247E33B90008C88D /* Info.plist */,
+				90F0C5212485A445006D2DF8 /* MapViewController.swift */,
+				90D0EC57248608DB0002AC9C /* Localizable.strings */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -123,6 +136,14 @@
 				902CE004247E33B90008C88D /* Info.plist */,
 			);
 			path = WorldTrotterUITests;
+			sourceTree = "<group>";
+		};
+		90F0C51E24836757006D2DF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90F0C51F24836758006D2DF8 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +232,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 902CDFD6247E33B70008C88D;
 			productRefGroup = 902CDFE0247E33B70008C88D /* Products */;
@@ -230,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				902CDFED247E33B90008C88D /* LaunchScreen.storyboard in Resources */,
+				90D0EC55248608DB0002AC9C /* Localizable.strings in Resources */,
 				902CDFEA247E33B90008C88D /* Assets.xcassets in Resources */,
 				902CDFE8247E33B70008C88D /* Main.storyboard in Resources */,
 			);
@@ -257,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				902CE011247E48390008C88D /* ConversionViewController.swift in Sources */,
+				90F0C5222485A445006D2DF8 /* MapViewController.swift in Sources */,
 				902CDFE3247E33B70008C88D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +321,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				902CDFE7247E33B70008C88D /* Base */,
+				90F0C5242485FAC9006D2DF8 /* en */,
+				90F0C5272485FDB8006D2DF8 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +335,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		90D0EC57248608DB0002AC9C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D0EC56248608DB0002AC9C /* en */,
+				90D0EC58248608E20002AC9C /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -316,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
